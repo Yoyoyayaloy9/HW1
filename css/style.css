@@ -1,0 +1,51 @@
+/* 
+File: style.css
+GUI Assignment: Creating Your First Web Page
+Mengly Lim, UMass Lowell Computer Science
+Created on: May 23, 2025
+Description: Styles for Mengly's introductory web page
+*/
+
+/* ----------- Base Page Layout ----------- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* ----------- Header Styling ----------- */
+  h1 {
+    color: #4a90e2;
+  }
+  
+  /* ----------- Enhanced Table Styling ----------- */
+  table {
+   border-collapse: collapse;
+    width: 60%;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  th {
+    background-color: #4a90e2;
+   color: white;
+   padding: 10px;
+   text-align: left;
+  }
+
+  td {
+    padding: 10px;
+   border-bottom: 1px solid #ccc;
+  }
+  
+  /* ----------- Link Styling ----------- */
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
