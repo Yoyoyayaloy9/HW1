@@ -7,7 +7,7 @@ Description: Styles for Mengly's introductory web page
 */
 
 /* ----------- Base Page Layout ----------- */
-body {
+  body {
     font-family: Arial, sans-serif;
     margin: 40px;
     background-color: #f4f4f9;
@@ -16,7 +16,10 @@ body {
   
   /* ----------- Header Styling ----------- */
   h1 {
-    color: #4a90e2;
+    background-color: #e0ecf8;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
   
   /* ----------- Enhanced Table Styling ----------- */
@@ -24,7 +27,7 @@ body {
    border-collapse: collapse;
     width: 60%;
     margin-top: 20px;
-    background-color: #fff;
+    background: linear-gradient(to bottom, #f4f4f9, #e9eff5);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
 
